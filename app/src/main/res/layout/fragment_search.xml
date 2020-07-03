@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.SearchFragment">
+
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        style="@style/MaterialSearchBarLight"
+        app:mt_speechMode="false"
+        app:mt_hint="Axtar"
+        app:mt_placeholder="Axtar"
+        app:mt_hintColor="@color/white"
+        app:mt_placeholderColor="@color/white"
+        app:mt_textColor="@color/white"
+        app:mt_backIconTint="@color/white"
+        app:mt_backIconUseTint="true"
+        app:mt_clearIconTint="@color/white"
+        app:mt_clearIconUseTint="true"
+        app:mt_textCursorTint="@color/white"
+        app:mt_menuIconTint="@color/white"
+        app:mt_menuIconUseTint="true"
+        app:mt_borderlessRippleEnabled="true"
+        app:mt_handlesTintEnabled="true"
+        app:mt_leftTextSelectorTint="@color/white"
+        app:mt_middleTextSelectorTint="@color/white"
+        app:mt_navIconTint="@color/white"
+        app:mt_navIconUseTint="true"
+        app:mt_searchIconTint="@color/white"
+        app:mt_rightTextSelectorTint="@color/white"
+        app:mt_searchIconUseTint="true"
+        app:mt_dividerColor="@color/white"
+        android:outlineAmbientShadowColor="@color/white"
+        android:outlineSpotShadowColor="@color/white"
+        app:mt_highlightedTextColor="@color/white"
+        app:mt_searchBarColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchBar" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/searchPlantRecycler"
+        android:layout_below="@id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ProgressBar
+        android:visibility="visible"
+        android:layout_centerInParent="true"
+        android:id="@+id/prog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

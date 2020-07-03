@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SoilActivity">
+
+    <ImageView
+        android:id="@+id/anlyzeImage"
+        android:src="@drawable/tural"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:scaleType="centerCrop"
+        android:layout_height="300dp"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textColor="#3e3e3e"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:text="Boz torpaq"
+        android:id="@+id/anlyzeImageName"
+        android:layout_below="@id/anlyzeImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

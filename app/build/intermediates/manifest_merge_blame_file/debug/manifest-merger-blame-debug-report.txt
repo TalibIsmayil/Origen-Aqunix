@@ -1,0 +1,148 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.origen.greeny"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml
+11
+12    <dist:module dist:instant="true" />
+12-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:6:5-40
+12-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:6:18-37
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:8:5-67
+14-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:9:5-65
+15-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:10:5-79
+16-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:11:5-80
+17-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:11:22-77
+18
+19    <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+20    <uses-feature
+20-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:24:5-26:36
+21        android:name="android.hardware.camera"
+21-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:25:9-47
+22        android:required="false" />
+22-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:26:9-33
+23    <uses-feature
+23-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:27:5-29:36
+24        android:name="android.hardware.camera.front"
+24-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:28:9-53
+25        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+25-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:29:9-33
+26    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+27    <uses-feature
+27-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:32:5-34:36
+28        android:name="android.hardware.camera.autofocus"
+28-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:33:9-57
+29        android:required="false" />
+29-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:34:9-33
+30    <uses-feature
+30-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:35:5-37:36
+31        android:name="android.hardware.camera.flash"
+31-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:36:9-53
+32        android:required="false" />
+32-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:37:9-33
+33    <uses-feature
+33-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:38:5-40:36
+34        android:name="android.hardware.screen.landscape"
+34-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:39:9-57
+35        android:required="false" />
+35-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:40:9-33
+36    <uses-feature
+36-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:41:5-43:36
+37        android:name="android.hardware.wifi"
+37-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:42:9-45
+38        android:required="false" />
+38-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:43:9-33
+39
+40    <application
+40-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:13:5-38:19
+41        android:allowBackup="true"
+41-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:15:9-35
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.1.0] /Users/account/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/AndroidManifest.xml:24:18-86
+43        android:debuggable="true"
+44        android:icon="@mipmap/ic_launcher"
+44-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:16:9-43
+45        android:label="@string/app_name"
+45-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:17:9-41
+46        android:largeHeap="true"
+46-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:14:9-33
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:18:9-54
+48        android:supportsRtl="true"
+48-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:19:9-35
+49        android:testOnly="true"
+50        android:theme="@style/AppTheme"
+50-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:20:9-40
+51        android:usesCleartextTraffic="true" >
+51-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:21:9-44
+52        <activity android:name="com.origen.greeny.IotActivity" />
+52-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:22:9-58
+52-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:22:19-46
+53        <activity android:name="com.origen.greeny.AddActivity" />
+53-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:23:9-49
+53-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:23:19-46
+54        <activity android:name="com.origen.greeny.TestActivity" />
+54-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:24:9-50
+54-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:24:19-47
+55        <activity android:name="com.origen.greeny.DetailActivity" />
+55-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:25:9-52
+55-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:25:19-49
+56        <activity android:name="com.origen.greeny.SoilActivity" />
+56-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:26:9-50
+56-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:26:19-47
+57        <activity android:name="com.origen.greeny.ScanActivity" />
+57-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:27:9-50
+57-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:27:19-47
+58        <activity android:name="com.origen.greeny.CommentActivity" />
+58-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:28:9-53
+58-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:28:19-50
+59        <activity android:name="com.origen.greeny.MainActivity" >
+59-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:29:9-35:20
+59-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:29:19-47
+60            <intent-filter>
+60-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:30:13-34:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:31:17-69
+61-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:31:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:33:17-77
+63-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:33:27-74
+64            </intent-filter>
+65        </activity>
+66
+67        <receiver android:name="com.origen.greeny.Utils.ReminderBroadcast" />
+67-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:37:9-60
+67-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:37:19-58
+68
+69        <activity
+69-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:46:9-52:63
+70            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+70-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:47:13-74
+71            android:clearTaskOnLaunch="true"
+71-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:48:13-45
+72            android:screenOrientation="sensorLandscape"
+72-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:49:13-56
+73            android:stateNotNeeded="true"
+73-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:50:13-42
+74            android:theme="@style/zxing_CaptureTheme"
+74-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:51:13-54
+75            android:windowSoftInputMode="stateAlwaysHidden" />
+75-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:52:13-60
+76    </application>
+77
+78</manifest>

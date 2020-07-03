@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Aqunix</string>
+
+    <string name="home">Əsas Səhifə</string>
+    <string name="search">Axtar</string>
+    <string name="my_garden">Mənim Bağım</string>
+    <string name="settings">Daha çox</string>
+
+    <string name="tab_text_1">Ətraflı Məlumat</string>
+    <string name="tab_text_2">Bildirişlər</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="tap_to_capture">TAP TO CAPTURE</string>
+    <string name="message">Place a barcode inside the viewfinder rectangle to scan it.</string>
+    <string name="turn_off_flashlight">FlashLight on</string>
+    <string name="turn_on_flashlight">FlashLight off</string>
+    <string name="about_text_1">The Azerbaijan edition, herein presented was prepared with a view to providing detailed information regarding this country, also known as The Land of Fire.</string>
+    <string name="about_text_2">With more than thousand photos, the book aims at presenting the ancient history, culture, traditions and ethnographic peculiarties of Azerbaijan,
+as well as the country’s past, present
+and modern image</string>
+    <string name="about_text_3">Book published as part of the project conducted by the Heydar Aliyev Foundation</string>
+    <string name="azerbaijan_text">Azerbaijan</string>
+    <string name="no_connection_title">Network Error</string>
+    <string name="no_connection_subtitle">Please check your device’s network connection and try again</string>
+    <string name="btn_try_again">TRY AGAIN</string>
+
+</resources>
