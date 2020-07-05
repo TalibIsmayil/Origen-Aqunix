@@ -80,12 +80,12 @@
         "source": "/Users/account/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/layout_design_layout_tab_text.xml.flat",
-        "source": "/Users/account/.gradle/caches/transforms-2/files-2.1/5d52d9573d8a8f70a8462cc8f8a42ce9/material-1.1.0/res/layout/design_layout_tab_text.xml"
-    },
-    {
         "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/drawable-v24_back_snackbar.xml.flat",
         "source": "/Users/account/Desktop/Aqunix/app/src/main/res/drawable-v24/back_snackbar.xml"
+    },
+    {
+        "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/layout_design_layout_tab_text.xml.flat",
+        "source": "/Users/account/.gradle/caches/transforms-2/files-2.1/5d52d9573d8a8f70a8462cc8f8a42ce9/material-1.1.0/res/layout/design_layout_tab_text.xml"
     },
     {
         "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/color_abc_background_cache_hint_selector_material_dark.xml.flat",
@@ -102,6 +102,10 @@
     {
         "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/drawable_x.xml.flat",
         "source": "/Users/account/Desktop/Aqunix/app/src/main/res/drawable/x.xml"
+    },
+    {
+        "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/drawable_sun.gif.flat",
+        "source": "/Users/account/Desktop/Aqunix/app/src/main/res/drawable/sun.gif"
     },
     {
         "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/drawable-v21_item_background.xml.flat",
@@ -1148,6 +1152,10 @@
         "source": "/Users/account/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/drawable-mdpi-v4/abc_list_focused_holo.9.png"
     },
     {
+        "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/drawable_girl.png.flat",
+        "source": "/Users/account/Desktop/Aqunix/app/src/main/res/drawable/girl.png"
+    },
+    {
         "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/color_mtrl_filled_background_color.xml.flat",
         "source": "/Users/account/.gradle/caches/transforms-2/files-2.1/5d52d9573d8a8f70a8462cc8f8a42ce9/material-1.1.0/res/color/mtrl_filled_background_color.xml"
     },
@@ -1592,12 +1600,12 @@
         "source": "/Users/account/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/layout/abc_select_dialog_material.xml"
     },
     {
-        "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view_list_item.xml.flat",
-        "source": "/Users/account/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
         "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/layout_abc_popup_menu_header_item_layout.xml.flat",
         "source": "/Users/account/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view_list_item.xml.flat",
+        "source": "/Users/account/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/color_mtrl_bottom_nav_colored_item_tint.xml.flat",
@@ -1610,6 +1618,10 @@
     {
         "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/drawable_mtrl_dialog_background.xml.flat",
         "source": "/Users/account/.gradle/caches/transforms-2/files-2.1/5d52d9573d8a8f70a8462cc8f8a42ce9/material-1.1.0/res/drawable/mtrl_dialog_background.xml"
+    },
+    {
+        "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/drawable_temp.gif.flat",
+        "source": "/Users/account/Desktop/Aqunix/app/src/main/res/drawable/temp.gif"
     },
     {
         "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -1962,6 +1974,10 @@
     {
         "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "/Users/account/.gradle/caches/transforms-2/files-2.1/e9dab9c67c1ee3668e0bbf86c6d8cbd8/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/drawable_fert.gif.flat",
+        "source": "/Users/account/Desktop/Aqunix/app/src/main/res/drawable/fert.gif"
     },
     {
         "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/drawable_abc_btn_default_mtrl_shape.xml.flat",
@@ -2962,6 +2978,10 @@
     {
         "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/anim_abc_slide_out_bottom.xml.flat",
         "source": "/Users/account/.gradle/caches/transforms-2/files-2.1/6119d746697059b7e1b74aab4d181f56/appcompat-1.1.0/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/drawable_soil.gif.flat",
+        "source": "/Users/account/Desktop/Aqunix/app/src/main/res/drawable/soil.gif"
     },
     {
         "merged": "/Users/account/Desktop/Aqunix/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",

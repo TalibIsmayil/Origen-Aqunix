@@ -1576,6 +1576,8 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable empty
 drawable fab_add
+drawable fert
+drawable girl
 drawable gradient
 drawable gradient2
 drawable group
@@ -1668,7 +1670,10 @@ drawable round_corners
 drawable scan
 drawable seed
 drawable sky
+drawable soil
+drawable sun
 drawable talib
+drawable temp
 drawable tenor
 drawable test_custom_background
 drawable tooltip_frame_dark

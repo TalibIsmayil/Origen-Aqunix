@@ -84,68 +84,67 @@
 47-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:18:9-54
 48        android:supportsRtl="true"
 48-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:19:9-35
-49        android:testOnly="true"
-50        android:theme="@style/AppTheme"
-50-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:20:9-40
-51        android:usesCleartextTraffic="true" >
-51-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:21:9-44
-52        <activity android:name="com.origen.greeny.MyGardenDetailActivity" />
-52-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:22:9-69
-52-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:22:19-57
-53        <activity android:name="com.origen.greeny.IotActivity" />
-53-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:23:9-49
-53-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:23:19-46
-54        <activity android:name="com.origen.greeny.AddActivity" />
-54-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:24:9-49
-54-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:24:19-46
-55        <activity android:name="com.origen.greeny.TestActivity" />
-55-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:25:9-50
-55-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:25:19-47
-56        <activity android:name="com.origen.greeny.DetailActivity" />
-56-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:26:9-52
-56-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:26:19-49
-57        <activity android:name="com.origen.greeny.SoilActivity" />
-57-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:27:9-50
-57-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:27:19-47
-58        <activity android:name="com.origen.greeny.ScanActivity" />
-58-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:28:9-50
-58-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:28:19-47
-59        <activity android:name="com.origen.greeny.CommentActivity" />
-59-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:29:9-53
-59-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:29:19-50
-60        <activity android:name="com.origen.greeny.MainActivity" >
-60-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:30:9-36:20
-60-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:30:19-47
-61            <intent-filter>
-61-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:31:13-35:29
-62                <action android:name="android.intent.action.MAIN" />
-62-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:32:17-69
-62-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:32:25-66
-63
-64                <category android:name="android.intent.category.LAUNCHER" />
-64-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:34:17-77
-64-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:34:27-74
-65            </intent-filter>
-66        </activity>
-67
-68        <receiver android:name="com.origen.greeny.Utils.ReminderBroadcast" />
-68-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:38:9-61
-68-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:38:19-58
-69
-70        <activity
-70-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:46:9-52:63
-71            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-71-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:47:13-74
-72            android:clearTaskOnLaunch="true"
-72-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:48:13-45
-73            android:screenOrientation="sensorLandscape"
-73-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:49:13-56
-74            android:stateNotNeeded="true"
-74-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:50:13-42
-75            android:theme="@style/zxing_CaptureTheme"
-75-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:51:13-54
-76            android:windowSoftInputMode="stateAlwaysHidden" />
-76-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:52:13-60
-77    </application>
-78
-79</manifest>
+49        android:theme="@style/AppTheme"
+49-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:20:9-40
+50        android:usesCleartextTraffic="true" >
+50-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:21:9-44
+51        <activity android:name="com.origen.greeny.MyGardenDetailActivity" />
+51-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:22:9-69
+51-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:22:19-57
+52        <activity android:name="com.origen.greeny.IotActivity" />
+52-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:23:9-49
+52-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:23:19-46
+53        <activity android:name="com.origen.greeny.AddActivity" />
+53-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:24:9-49
+53-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:24:19-46
+54        <activity android:name="com.origen.greeny.TestActivity" />
+54-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:25:9-50
+54-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:25:19-47
+55        <activity android:name="com.origen.greeny.DetailActivity" />
+55-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:26:9-52
+55-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:26:19-49
+56        <activity android:name="com.origen.greeny.SoilActivity" />
+56-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:27:9-50
+56-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:27:19-47
+57        <activity android:name="com.origen.greeny.ScanActivity" />
+57-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:28:9-50
+57-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:28:19-47
+58        <activity android:name="com.origen.greeny.CommentActivity" />
+58-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:29:9-53
+58-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:29:19-50
+59        <activity android:name="com.origen.greeny.MainActivity" >
+59-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:30:9-36:20
+59-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:30:19-47
+60            <intent-filter>
+60-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:31:13-35:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:32:17-69
+61-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:32:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:34:17-77
+63-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:34:27-74
+64            </intent-filter>
+65        </activity>
+66
+67        <receiver android:name="com.origen.greeny.Utils.ReminderBroadcast" />
+67-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:38:9-61
+67-->/Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:38:19-58
+68
+69        <activity
+69-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:46:9-52:63
+70            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+70-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:47:13-74
+71            android:clearTaskOnLaunch="true"
+71-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:48:13-45
+72            android:screenOrientation="sensorLandscape"
+72-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:49:13-56
+73            android:stateNotNeeded="true"
+73-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:50:13-42
+74            android:theme="@style/zxing_CaptureTheme"
+74-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:51:13-54
+75            android:windowSoftInputMode="stateAlwaysHidden" />
+75-->[com.journeyapps:zxing-android-embedded:3.5.0] /Users/account/.gradle/caches/transforms-2/files-2.1/c7625a4714d26c5e02e3047e0c2ef9a5/jetified-zxing-android-embedded-3.5.0/AndroidManifest.xml:52:13-60
+76    </application>
+77
+78</manifest>

@@ -117,6 +117,7 @@
                 android:layout_height="150dp">
 
                 <pl.droidsonroids.gif.GifImageView
+                    android:src="@drawable/fert"
                     android:scaleType="centerCrop"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"/>
@@ -165,6 +166,12 @@
                 android:layout_height="150dp">
 
 
+                <pl.droidsonroids.gif.GifImageView
+                    android:src="@drawable/sun"
+                    android:scaleType="centerCrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
 
 
                 <ImageView
@@ -207,6 +214,7 @@
 
 
                 <pl.droidsonroids.gif.GifImageView
+                    android:src="@drawable/soil"
                     android:scaleType="centerCrop"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"/>
@@ -265,6 +273,7 @@
 <!--                    android:layout_height="match_parent"/>-->
 
                 <pl.droidsonroids.gif.GifImageView
+                    android:src="@drawable/temp"
                     android:scaleType="centerCrop"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"/>
