@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plant"
+    tools:context=".MyGardenDetailActivity">
+
+    <TextView
+        android:id="@+id/plant"
+        android:textSize="40sp"
+        android:fontFamily="@font/aclonica"
+        android:text="Plant"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#000000"
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.cardview.widget.CardView
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardElevation="4dp"
+        android:elevation="4dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintTop_toBottomOf="@id/plant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/su"
+                android:src="@drawable/ic_local_drink_black_24dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+            <ProgressBar
+                android:progressBackgroundTint="@color/white"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:progressTint="@color/white"
+                android:progress="50"
+                android:indeterminateTint="@color/white"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_toEndOf="@id/su"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/su"
+                android:id="@+id/gubre"
+                android:src="@drawable/ic_whatshot_black_24dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+            <ProgressBar
+                android:progressBackgroundTint="@color/white"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:progressTint="@color/white"
+                android:progress="90"
+                android:indeterminateTint="@color/white"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_toEndOf="@id/gubre"
+                android:layout_below="@id/su"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/gubre"
+                android:id="@+id/yerini_deyis"
+                android:src="@drawable/ic_build_black_24dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+            <ProgressBar
+                android:progressBackgroundTint="@color/white"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:progressTint="@color/white"
+                android:progress="59"
+                android:indeterminateTint="@color/white"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_toEndOf="@id/yerini_deyis"
+                android:layout_below="@id/gubre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/yerini_deyis"
+                android:id="@+id/toxum_ek"
+                android:src="@drawable/ic_spa_black_24dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+            <ProgressBar
+                android:progressBackgroundTint="@color/white"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:progressTint="@color/white"
+                android:progress="9"
+                android:indeterminateTint="@color/white"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_toEndOf="@id/toxum_ek"
+                android:layout_below="@id/yerini_deyis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/toxum_ek"
+                android:id="@+id/dermanlamaq"
+                android:src="@drawable/ic_format_color_fill_black_24dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+            <ProgressBar
+                android:progressBackgroundTint="@color/white"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:progressTint="@color/white"
+                android:progress="29"
+                android:indeterminateTint="@color/white"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_toEndOf="@id/dermanlamaq"
+                android:layout_below="@id/toxum_ek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/dermanlamaq"
+                android:id="@+id/kes"
+                android:src="@drawable/ic_content_cut_black_24dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+
+            <ProgressBar
+                android:progressBackgroundTint="@color/white"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:progressTint="@color/white"
+                android:progress="59"
+                android:indeterminateTint="@color/white"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_toEndOf="@id/kes"
+                android:layout_below="@id/dermanlamaq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

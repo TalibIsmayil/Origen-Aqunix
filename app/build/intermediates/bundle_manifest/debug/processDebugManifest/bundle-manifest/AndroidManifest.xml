@@ -49,6 +49,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.origen.greeny.MyGardenDetailActivity" />
         <activity android:name="com.origen.greeny.IotActivity" />
         <activity android:name="com.origen.greeny.AddActivity" />
         <activity android:name="com.origen.greeny.TestActivity" />

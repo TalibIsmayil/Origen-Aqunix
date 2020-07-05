@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:2:1-40:12
+ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:2:1-41:12
 MERGED from [com.aurelhubert:ahbottomnavigation:2.3.4] /Users/account/.gradle/caches/transforms-2/files-2.1/66f6fbed232696f241016abbdaaff993/ahbottomnavigation-2.3.4/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.material:material:1.1.0] /Users/account/.gradle/caches/transforms-2/files-2.1/5d52d9573d8a8f70a8462cc8f8a42ce9/material-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.mancj:MaterialSearchBar:0.8.5] /Users/account/.gradle/caches/transforms-2/files-2.1/117c52c1ac578a3ee998bf0288552ec8/MaterialSearchBar-0.8.5/AndroidManifest.xml:2:1-17:12
@@ -51,22 +51,22 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/account/.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/account/.gradle/caches/transforms-2/files-2.1/733fc1d306cee2c05d3e1fb0b7527020/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/account/.gradle/caches/transforms-2/files-2.1/fdd65d8b6066fd289a68b42931dc03a2/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [pl.droidsonroids:relinker:1.3.1] /Users/account/.gradle/caches/transforms-2/files-2.1/979098585056195889d61c52097b0803/relinker-1.3.1/AndroidManifest.xml:2:1-7:12
-INJECTED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:2:1-41:12
 	package
 		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:4:5-32
 		INJECTED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml
-		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:2:1-40:12
+		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:2:1-41:12
 		INJECTED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml
 	xmlns:dist
 		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:3:5-61
 	android:versionCode
 		INJECTED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml
-		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:2:1-40:12
+		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:2:1-41:12
 		INJECTED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:2:11-69
@@ -93,7 +93,7 @@ ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:11:5-8
 	android:name
 		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:11:22-77
 application
-ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:13:5-38:19
+ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:13:5-39:19
 MERGED from [com.aurelhubert:ahbottomnavigation:2.3.4] /Users/account/.gradle/caches/transforms-2/files-2.1/66f6fbed232696f241016abbdaaff993/ahbottomnavigation-2.3.4/AndroidManifest.xml:11:5-20
 MERGED from [com.aurelhubert:ahbottomnavigation:2.3.4] /Users/account/.gradle/caches/transforms-2/files-2.1/66f6fbed232696f241016abbdaaff993/ahbottomnavigation-2.3.4/AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.material:material:1.1.0] /Users/account/.gradle/caches/transforms-2/files-2.1/5d52d9573d8a8f70a8462cc8f8a42ce9/material-1.1.0/AndroidManifest.xml:22:5-20
@@ -121,65 +121,69 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/acco
 	android:supportsRtl
 		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:17:9-41
+		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:16:9-41
 	android:roundIcon
 		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:18:9-54
 	android:largeHeap
-		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:14:9-33
+		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:17:9-33
 	android:icon
-		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:16:9-43
+		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:14:9-35
 	android:theme
 		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:20:9-40
 	android:usesCleartextTraffic
 		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:21:9-44
-activity#com.origen.greeny.IotActivity
-ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:22:9-58
+activity#com.origen.greeny.MyGardenDetailActivity
+ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:22:9-69
 	android:name
-		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:22:19-46
-activity#com.origen.greeny.AddActivity
+		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:22:19-57
+activity#com.origen.greeny.IotActivity
 ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:23:9-49
 	android:name
 		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:23:19-46
+activity#com.origen.greeny.AddActivity
+ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:24:9-49
+	android:name
+		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:24:19-46
 activity#com.origen.greeny.TestActivity
-ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:24:9-50
+ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:25:9-50
 	android:name
-		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:24:19-47
+		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:25:19-47
 activity#com.origen.greeny.DetailActivity
-ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:25:9-52
+ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:26:9-52
 	android:name
-		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:25:19-49
+		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:26:19-49
 activity#com.origen.greeny.SoilActivity
-ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:26:9-50
-	android:name
-		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:26:19-47
-activity#com.origen.greeny.ScanActivity
 ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:27:9-50
 	android:name
 		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:27:19-47
+activity#com.origen.greeny.ScanActivity
+ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:28:9-50
+	android:name
+		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:28:19-47
 activity#com.origen.greeny.CommentActivity
-ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:28:9-53
+ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:29:9-53
 	android:name
-		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:28:19-50
+		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:29:19-50
 activity#com.origen.greeny.MainActivity
-ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:29:9-35:20
+ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:30:9-36:20
 	android:name
-		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:29:19-47
+		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:30:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:30:13-34:29
+ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:31:17-69
+ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:31:25-66
+		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:33:17-77
+ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:33:27-74
+		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:34:27-74
 receiver#com.origen.greeny.Utils.ReminderBroadcast
-ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:37:9-60
+ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:38:9-61
 	android:name
-		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:37:19-58
+		ADDED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml:38:19-58
 uses-sdk
 INJECTED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/account/Desktop/Aqunix/app/src/main/AndroidManifest.xml

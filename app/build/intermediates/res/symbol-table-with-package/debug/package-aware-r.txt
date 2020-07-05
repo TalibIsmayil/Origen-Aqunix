@@ -1658,6 +1658,7 @@ drawable notify_panel_notification_icon_bg
 drawable person
 drawable pexels
 drawable placeholder
+drawable plant
 drawable poision
 drawable premium
 drawable purple
@@ -1812,6 +1813,7 @@ id date_picker_actions
 id days_ago
 id decor_content_parent
 id default_activity_button
+id dermanlamaq
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1854,6 +1856,7 @@ id glide_custom_view_target_tag
 id gone
 id group_divider
 id groups
+id gubre
 id hideable
 id home
 id homeAsUp
@@ -1878,6 +1881,7 @@ id iot_recycler
 id italic
 id item_touch_helper_previous_elevation
 id iv_delete
+id kes
 id labeled
 id largeLabel
 id last
@@ -1976,6 +1980,7 @@ id password_toggle
 id peekHeight
 id percent
 id pin
+id plant
 id post_image
 id profile_image
 id prog
@@ -2047,6 +2052,7 @@ id standard
 id start
 id status_bar_latest_event_content
 id stretch
+id su
 id submenuarrow
 id submit_area
 id switch_flashlight
@@ -2083,6 +2089,7 @@ id toolbar
 id top
 id topPanel
 id touch_outside
+id toxum_ek
 id transition_current_scene
 id transition_layout_save
 id transition_position
@@ -2102,6 +2109,7 @@ id weather
 id withText
 id wrap
 id wrap_content
+id yerini_deyis
 id zxing_back_button
 id zxing_barcode_scanner
 id zxing_barcode_surface
@@ -2184,6 +2192,7 @@ layout activity_comment
 layout activity_detail
 layout activity_iot
 layout activity_main
+layout activity_my_garden_detail
 layout activity_scan
 layout activity_soil
 layout activity_test

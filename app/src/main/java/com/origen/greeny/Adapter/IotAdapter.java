@@ -1,6 +1,7 @@
 package com.origen.greeny.Adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,7 +10,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.origen.greeny.DetailActivity;
 import com.origen.greeny.Model.IotModel;
+import com.origen.greeny.MyGardenDetailActivity;
 import com.origen.greeny.R;
 
 import java.util.List;
@@ -35,6 +38,13 @@ public class IotAdapter extends RecyclerView.Adapter<IotAdapter.IotViewHolder> {
     public void onBindViewHolder(@NonNull IotViewHolder holder, int position) {
         holder.name.setText(list.get(position).getName());
         holder.desc.setText(list.get(position).getMac());
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, MyGardenDetailActivity.class);
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override
